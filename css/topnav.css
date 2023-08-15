@@ -1,0 +1,59 @@
+.topnav {
+  height: 40px;
+  background-color: #333;
+  color: #b0b0b0;
+  font-size: 12px;
+}
+.topnav-meun {
+  line-height: 40px;
+}
+.topnav-meun a {
+  padding: 0 7px;
+  border-right: 1px solid #424242;
+}
+.topnav-meun a:hover {
+  color: #fff;
+}
+.topnav-meun li:last-child a {
+  border-right: none;
+}
+.topnav-meun li:first-child a {
+  padding-left: 0;
+}
+
+/* 购物车 */
+.topnav-car {
+  position: relative;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #424242;
+}
+.topnav-car .car {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+.topnav-car .text {
+  background-color: #fff;
+  height: 100px;
+  width: 320px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  line-height: 100px;
+  border: 1px solid #ccc;
+  border-top: none;
+  display: none;
+  z-index: 60;
+}
+.topnav-car:hover .text {
+  display: block;
+}
+.topnav-car a:hover {
+  background-color: #fff;
+}
+.topnav-car .iconfont {
+  margin-right: 3px;
+}

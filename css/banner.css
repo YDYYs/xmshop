@@ -1,0 +1,106 @@
+.banner {
+  height: 460px;
+  /* outline: 1px solid red; */
+  position: relative;
+}
+.banner img {
+  width: 100%;
+  height: 100%;
+}
+.banner-point {
+  position: absolute;
+  width: 40px;
+  height: 70px;
+  color: #b8c3cb;
+  line-height: 70px;
+  top: 50%;
+  margin-top: -35px;
+  text-align: center;
+  cursor: pointer;
+}
+.banner-point:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.banner-point .iconfont {
+  font-size: 30px;
+}
+.banner-arrow-left {
+  left: 234px;
+}
+.banner-arrow-right {
+  right: 0;
+}
+.banner-dots {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  /* border: 1px solid red; */
+}
+
+.banner-dots span {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+  margin: 0 4px;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+}
+span.banner-dots-selected {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(0, 0, 0, 0.4);
+}
+/* 菜单 */
+.banner-menu {
+  position: absolute;
+  width: 234px;
+  background-color: rgba(105, 101, 101, 0.6);
+  height: 100%;
+  top: 0;
+  left: 0;
+  color: #fff;
+  padding: 20px 0;
+}
+.banner-menu .banner-menu-item {
+  height: 42px;
+  padding-left: 30px;
+  padding-right: 20px;
+  line-height: 42px;
+}
+.banner-menu li:hover {
+  background-color: #ff6700;
+}
+.banner-menu li:hover .banner-sub-menu {
+  display: block;
+}
+
+/* 子菜单 */
+.banner-sub-menu {
+  display: none;
+  position: absolute;
+  outline: 1px solid #eee;
+  background-color: #fff;
+  height: 100%;
+  width: 992px;
+  left: 234px;
+  top: 0;
+  color: #333;
+}
+.banner-sub-menu a {
+  width: 25%;
+  height: 16.666%;
+  padding: 0 20px;
+}
+.banner-sub-menu img {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+  margin-top: 17px;
+}
+.banner-sub-menu span {
+  margin-top: 28px;
+  width: 154px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

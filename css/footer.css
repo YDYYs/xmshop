@@ -1,0 +1,75 @@
+.footer-top {
+  height: 75px;
+  padding: 27px 0;
+  color: #616161;
+  border-bottom: 1px solid #e0e0e0;
+}
+.footer-top a {
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  width: 20%;
+  font-size: 16px;
+  text-align: center;
+  border-right: 1px solid #e0e0e0;
+}
+.footer-top a:last-child {
+  border-right: none;
+}
+.footer-top .iconfont {
+  font-size: 26px;
+  vertical-align: -5px;
+}
+
+.footer-links a {
+  display: block;
+  margin-top: 8px;
+  width: 160px;
+}
+.footer-links {
+  width: 160px;
+  color: #757575;
+  /* border-right: 1px solid; */
+}
+.footer-links h3 {
+  margin-bottom: 12px;
+  margin-top: 40px;
+  color: #424242;
+  font-weight: normal;
+}
+
+.footer-conact {
+  margin-top: 40px;
+  width: 245px;
+  text-align: center;
+  border-left: 1px solid #e0e0e0;
+}
+.footer-conact h3 {
+  font-size: 22px;
+  color: #ff6700;
+}
+.footer-conact .service {
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ff6700;
+  width: 118px;
+  height: 30px;
+  line-height: 30px;
+}
+.footer-conact .service:hover {
+  background-color: #ff6700;
+  color: #fff;
+}
+.footer-conact .iconfont {
+  font-size: 14px;
+}
+.attention .iconfont {
+  font-size: 20px;
+  vertical-align: middle;
+}
+.attention .iconfont:hover {
+  color: #ff6700;
+}
+.footer {
+  padding-bottom: 30px;
+}
